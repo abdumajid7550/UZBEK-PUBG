@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../img/Background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(0, 43, 43);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-logo {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: larger;
+    letter-spacing: 10px;
+    font-family: sans-serif;
+}
+
+.header-list {
+    display: flex;
+    gap: 30px;
+    text-transform: uppercase;
+    list-style: none;
+    font-family: serif;
+}
+
+.header-link {
+    text-decoration: none;
+    color: white;
+}
+
+.hero-section {
+    background-image: url('../img/Hero.png');
+}
+
+.hero-container {}
+
+.hero-title {}
+
+.hero-text {
+    font-family: sans-serif;
+}
+
+.section {
+    padding-top: 160px;
+    padding-bottom: 60px;
+}
+
+.section-container {
+    max-width: 1100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-right: auto;
+    margin-left: auto;
+    gap: 10px;
+}
+
+.card {
+    /* max-width: 300px; */
+    width: 100%;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-title {
+    margin: 0 0 10px;
+    font-size: 18px;
+}
+
+.card-description {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+    font-family: sans-serif;
+}
+
+.card-button {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    margin-top: 15px;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card-button:hover {
+    background-color: #0056b3;
+}
+
+.Senator {
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-button-a {
+    text-decoration: none;
+}
